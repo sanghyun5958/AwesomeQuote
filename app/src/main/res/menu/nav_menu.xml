@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="@string/title_home"/>
+    <item
+        android:id="@+id/nav_news"
+        android:title="@string/title_news"/>
+    <item
+        android:id="@+id/nav_culture"
+        android:title="@string/title_culture"/>
+    <item
+        android:id="@+id/nav_entertainment"
+        android:title="@string/title_entertainment"/>
+    <item
+        android:id="@+id/nav_military"
+        android:title="@string/title_military"/>
+    <item
+        android:id="@+id/nav_women"
+        android:title="@string/title_women"/>
+    <item
+        android:id="@+id/nav_nature"
+        android:title="@string/title_nature"/>
+    <item
+        android:id="@+id/nav_food"
+        android:title="@string/title_food"/>
+    <item
+        android:id="@+id/nav_history"
+        android:title="@string/title_history"/>
+    <item
+        android:id="@+id/nav_videos"
+        android:title="@string/title_videos"/>
+    <item
+        android:id="@+id/nav_opinion"
+        android:title="@string/title_opinion"/>
+    <!--<item
+        android:id="@+id/nav_poll"
+        android:title="@string/title_poll"/>
+    <item
+        android:id="@+id/nav_quiz"
+        android:title="@string/title_quiz"/>-->
+    <item
+        android:id="@+id/setting"
+        android:title="SETTINGS">
+
+        <menu>
+                <item
+                    android:id="@+id/lang_edit"
+                    android:title="Language and Edition"
+                    android:icon="@drawable/ic_action_feed"/>
+
+               <!-- <item
+                    android:id="@+id/lang_app"
+                    android:title="App Language"
+                    android:icon="@drawable/ic_action_feed"/>-->
+        </menu>
+
+    </item>
+    <!--<item
+        android:id="@+id/help"
+        android:title="HELP">
+        <menu>
+
+            <item
+                android:id="@+id/lang_feed"
+                android:title="Feedback"
+                android:icon="@drawable/ic_action_feed"/>
+            <item
+                android:id="@+id/lang_about"
+                android:title="About Us"
+                android:icon="@drawable/ic_action_feed"/>
+
+        </menu>
+    </item>-->
+</menu>

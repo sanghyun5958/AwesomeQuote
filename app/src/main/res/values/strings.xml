@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Quote for sharing</string>
+    <string name="upload_img">Upload Image</string>
+    <string name="crop">Crop</string>
+    <string name="toggle_g">Toggle Gesture</string>
+    <string name="replace">Replace</string>
+    <string name="english_quote">English Quote</string>
+    <string name="kor_quote">Korean Quote</string>
+    <string name="translate">Translate</string>
+    <string name="save">Save</string>
+    <string name="share">Share</string>
+    <string name="view_response">View Response (Facebook)</string>
+    <string name="more">More</string>
+    <string name="share_title">Your Signature</string>
+
+
+    <string name="share_sub">it will be typed below of the image </string>
+    <string name="append_txt">Quote for sharing</string>
+    <string name="save_title">Saved!</string>
+    <string name="save_sub">The image has saved</string>
+
+    <string name="crop_title">Please choose one.</string>
+    <string name="crop_sub"></string>
+    <string name="crop_btn1">Default</string>
+    <string name="crop_btn2">KaKaotalk</string>
+
+
+    <string name="action_delete">Search</string>
+    <string name="title">Quote for sharing</string>
+    <string name="title_home">Home</string>
+    <string name="title_news">News</string>
+    <string name="title_culture">Culture</string>
+    <string name="title_entertainment">Entertainment</string>
+    <string name="title_military">Military</string>
+    <string name="title_women">Women</string>
+    <string name="title_nature">Nature</string>
+    <string name="title_food">Food</string>
+    <string name="title_history">History</string>
+    <string name="title_videos">Videos</string>
+    <string name="title_opinion">Opinion</string>
+    <string name="close">close</string>
+    <string name="open">open</string>
+    <string name="action_share">share</string>
+    <string name="action_comment">comment</string>
+    <string name="action_favourite">favourite</string>
+    <string name="searchable">Search...</string>
+    <string name="s">Searchable</string>
+    <string name="add_comment">Comments</string>
+    <string name="summary">Summary</string>
+    <string name="LANG_FILE">LANGUAGE_FILE</string>
+    <string name="LANGUAGE">LANGUAGES</string>
+    <string name="choose_language">Choose Any Language</string>
+    <string name="collapsing_toolbar_height">250dp</string>
+    <string name="title_poll">Poll</string>
+    <string name="title_quiz">Quiz</string>
+    <string-array name="languages">
+        <item>English</item>
+        <item>हिंदी </item>
+        <item>বাঙ্গালী</item><!--bengali language-->
+        <item>தமிழ்</item><!--Tamil language-->
+    </string-array>
+    <string-array name="languages_key">
+        <item>35459</item><!--English code-->
+        <item>2579</item><!--Hindi code-->
+        <item>31188</item><!--bengali code-->
+        <item>17313</item><!--Tamil code-->
+    </string-array>
+</resources>

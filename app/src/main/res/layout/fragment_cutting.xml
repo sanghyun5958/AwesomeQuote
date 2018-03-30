@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_marginTop="2dp"
+        android:id="@+id/crop_layout"
+        android:layout_width="384dp"
+        android:layout_height="160dp"
+        android:background="@drawable/cropping_banner">
+
+        <TextView
+            android:id="@+id/crop_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="120dp"
+            android:layout_marginEnd="51dp"
+            android:text="Default Crop"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/kakao_layout"
+        android:layout_width="384dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/kakao_banner2">
+
+        <TextView
+            android:id="@+id/kakao_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="58dp"
+            android:layout_marginTop="19dp"
+            android:text="KaKaoTalk"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

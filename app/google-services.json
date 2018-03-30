@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "224526624780",
+    "firebase_url": "https://awesomequote-88c5b.firebaseio.com",
+    "project_id": "awesomequote-88c5b",
+    "storage_bucket": "awesomequote-88c5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224526624780:android:59ea570ee3bd5794",
+        "android_client_info": {
+          "package_name": "com.knily.awesomequote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224526624780-6c1jasgvvh5ietu7erbb4ojcrmlmhtvn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.knily.awesomequote",
+            "certificate_hash": "4bdcc7c546531bcb08d23102e967ccae5bdb1fc1"
+          }
+        },
+        {
+          "client_id": "224526624780-g044d1p6gusf4g60bs9n9gpgrv5kfiqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhSMfowh84gcAhvRVa4Ah8cUuIHRO2WRg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224526624780-g044d1p6gusf4g60bs9n9gpgrv5kfiqa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".CuttingActivity"
+   >
+
+    <FrameLayout
+        android:id="@+id/top_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/snap_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="16dp"
+            android:padding="8dp"
+            android:layout_gravity="left|bottom"
+            android:background="@drawable/black_transp_circ_ripple"
+            android:scaleType="center"
+            android:src="@mipmap/ic_crop_free_white_24dp"/>
+
+        <ImageView
+            android:id="@+id/rotate_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="8dp"
+            android:layout_margin="16dp"
+            android:layout_gravity="right|bottom"
+            android:background="@drawable/black_transp_circ_ripple"
+            android:scaleType="center"
+            android:src="@mipmap/ic_rotate_right_white_24dp"/>
+
+
+        <com.fenchtose.nocropper.CropperView
+            android:id="@+id/imageview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:nocropper__grid_color="@color/colorAccent"
+            app:nocropper__grid_opacity="0.8"
+
+            app:nocropper__grid_thickness="0.8dp"
+            app:nocropper__padding_color="@color/colorAccent" >
+
+        </com.fenchtose.nocropper.CropperView>
+
+        <ImageView
+            android:id="@+id/background_dark"
+            android:layout_width="match_parent"
+            android:layout_height="364dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/transparent_black2" />
+
+
+    </FrameLayout>
+
+
+    <GridLayout
+
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="@string/upload_img"
+            android:id="@+id/image_button"/>
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="@string/crop"
+            android:id="@+id/crop_button"/>
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="@string/toggle_g"
+            android:id="@+id/gesture_button"/>
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="@string/replace"
+            android:id="@+id/replace_button"/>
+
+    </GridLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_above="@+id/gridLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="79dp"
+        android:src="@drawable/kakao_round_img" />
+
+
+</RelativeLayout>
