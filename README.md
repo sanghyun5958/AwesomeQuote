@@ -14,8 +14,7 @@ I designed UI mockups and implemented end-to-end web applications using the Code
 
 ## Built With
 
-* *PHP MVC Framework* - Dependency Management 
-* *CodeIgniter Web Framework* - The web framework used
+* *PHP MVC Framework* - Dependency Management * *CodeIgniter Web Framework* - The web framework used
 * *Bootstrap* -  Used to generate RSS Feeds 
 
 URL : http://wifiinfobank.unapcict.org
