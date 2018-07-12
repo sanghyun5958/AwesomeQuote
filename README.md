@@ -1,6 +1,6 @@
 
 
-## Screenshot (Android app with Wordpress)
+## Android app with Wordpress - Screenshot
 
 ![screenshot_quote](./screenshot_quote.jpg)
 
