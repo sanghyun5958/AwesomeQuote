@@ -24,28 +24,37 @@ Download Link : https://play.google.com/store/apps/details?id=com.knily.awesomeq
 
 
 ```java
-public class MessageService extends FirebaseMessagingService {
-    private static final String TAG = "MessageService";
-    @Override
-    public void onMessageReceived(RemoteMessage remoteMessage) {
-        super.onMessageReceived(remoteMessage);
-        String from = remoteMessage.getFrom();
-        // Check if message contains a data payload.
-        Map<String, String> data = remoteMessage.getData();
-        if (data.size() > 0) {
-            Log.d(TAG, "Message data payload: " + data);
-            switch (from) {
-                case "/topics/log":
-                    onLogMessage(data);
-                break;
-                case "/topics/login":
-                    ...
-                    ...
-                case "/topics/new_page":
-                    onNewPageMessage(data);
-                break;
-            }
+private static final Retrofit.Builder retrofitBuilder = new Retrofit.Builder().baseUrl(base_URL)
+            .addConverterFactory(GsonConverterFactory.create());
+    public static <T> T createService(Class<T> serviceClass) {
+        addLoggingInterceptor(httpClient);
+        Retrofit retrofit = retrofitBuilder.
+                client(httpClient.build())
+                .build();
+        return retrofit.create(serviceClass);
+    }
+        ......
+    public static Retrofit provideRetrofit (String baseUrl)
+    {
+        return new Retrofit.Builder()
+                .baseUrl( baseUrl )
+                .client( provideOkHttpClient() )
+                .addConverterFactory( GsonConverterFactory.create() )
+                .build();
+    }
+
+    private static OkHttpClient provideOkHttpClient ()
+    {
+        if (client == null) {
+            client = new OkHttpClient.Builder()
+                    .addInterceptor(provideHttpLoggingInterceptor())
+                    .addInterceptor(provideOfflineCacheInterceptor())
+                    .addNetworkInterceptor(provideCacheInterceptor())
+                    .cache(provideCache())
+                    .build();
         }
+        return client;
+    }
 ?>
 
 ```
