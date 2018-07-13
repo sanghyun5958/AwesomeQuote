@@ -6,13 +6,13 @@
 
 ## The purpose of the project
 
-To promote the events launched in 8 different countries and share e-learning ICT courses for female entrepreneurs in Asia and the Pacific.
+To help people interested in learning either Korean or English using pictures of quotes which are translated by using the Android application.
 
 
 
 ## the project summary
 
-* **Gson Parsing Using Restrofit2** - I separated the app data and business logic (model) from the presentation (view) by developing with CodeIgniter MVC pattern.
+* **Gson/Json Parsing Using Restrofit2** - I have developed using Restrofit2 to convert the REST API in the Java interface.
 * **Custom Wordpress plugin** - I designed this entire app with Bootstrap responsive grid system, prebuilt components, and plugins built on jQuery. I also used the html5 feature.
 * **Android UI Design** -  I created and modified web site images using Photoshop.
 
